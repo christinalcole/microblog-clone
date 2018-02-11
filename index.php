@@ -6,6 +6,9 @@
 </head>
 
 <body>
-  <?php echo("Hello World?  It's always 'Hello, World'..."); ?>
+  <form action="postForm.php" method="POST">
+    <textarea name="microBlog" id="microBlog" rows="10" cols="30">
+    </textarea>
+    <input type="submit">
 </body>
 </html>
